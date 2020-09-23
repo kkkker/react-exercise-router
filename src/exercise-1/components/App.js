@@ -14,11 +14,12 @@ class App extends Component {
       <BrowserRouter>
         <NavBar className="nav-bar" />
         <Switch>
-          <Route exact path="/" component={Home} />
           <Route exact path="/products" component={Products} />
+          <Route exact path="/goods" component={Products} />
           <Route exact path="/products/:id" component={ProductDetails} />
           <Route exact path="/my-profile" component={MyProfile} />
           <Route exact path="/about-us" component={AboutUs} />
+          <Route path="/" component={Home} />
         </Switch>
       </BrowserRouter>
     );
