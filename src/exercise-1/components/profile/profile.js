@@ -6,7 +6,7 @@ class MyProfile extends Component {
     const url = this.props.match.url;
     return (
       <div className="my-profile">
-        <p>Username:XXX</p>
+        <p>Username: XXX</p>
         <p>Gender: Female</p>
         <p>Work: IT Industry</p>
         <p>Website: "{url}"</p>

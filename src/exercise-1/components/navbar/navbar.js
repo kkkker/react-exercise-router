@@ -1,12 +1,13 @@
-import React, { Component, Fragment } from "react";
+import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
-import "./navbar.css"
+import "./navbar.css";
 
 class NavBar extends Component {
   render() {
     return (
       <nav className="nav-bar">
         <NavLink
+          exact
           activeStyle={{
             textDecoration: "underline",
           }}
@@ -15,6 +16,7 @@ class NavBar extends Component {
           Home
         </NavLink>
         <NavLink
+          exact
           activeStyle={{
             textDecoration: "underline",
           }}
@@ -23,6 +25,7 @@ class NavBar extends Component {
           My Profile
         </NavLink>
         <NavLink
+          exact
           activeStyle={{
             textDecoration: "underline",
           }}
