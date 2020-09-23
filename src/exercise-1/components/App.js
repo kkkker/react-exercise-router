@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import NavBar from "./navbar/navbar";
 import Home from "./home/home";
+import MyProfile from "./profile/profile"
 
 class App extends Component {
   render() {
@@ -16,7 +17,7 @@ class App extends Component {
         <NavBar className="nav-bar" />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/my-profile" component={Home} />
+          <Route exact path="/my-profile" component={MyProfile} />
           <Route exact path="/about-us" component={Home} />
         </Switch>
       </BrowserRouter>
