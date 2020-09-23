@@ -4,8 +4,10 @@ import {
   BrowserRouter,
   BrowserRouter as Router,
   Switch,
+  Route,
 } from "react-router-dom";
 import NavBar from "./navbar/navbar";
+import Home from "./home/home";
 
 class App extends Component {
   render() {
@@ -13,7 +15,9 @@ class App extends Component {
       <BrowserRouter>
         <NavBar className="nav-bar" />
         <Switch>
-          <Router />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/my-profile" component={Home} />
+          <Route exact path="/about-us" component={Home} />
         </Switch>
       </BrowserRouter>
     );
