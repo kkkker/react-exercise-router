@@ -19,7 +19,7 @@ class NavBar extends Component {
           activeStyle={{
             textDecoration: "underline",
           }}
-          to={"/products"}
+          to={["/products", "/goods"]}
         >
           Products
         </NavLink>
