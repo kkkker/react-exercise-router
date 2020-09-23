@@ -1,0 +1,13 @@
+.nav-bar {
+  background-color: rgb(192, 190, 190);
+  height: 2em;
+  width: 100%;
+  text-align: right;
+}
+
+.nav-bar a {
+line-height: 100%;
+margin: auto 1em;
+color: black;
+text-decoration: none;
+}
