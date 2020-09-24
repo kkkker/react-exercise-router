@@ -16,7 +16,6 @@ class NavBar extends Component {
           Home
         </NavLink>
         <NavLink
-          exact
           activeStyle={{
             textDecoration: "underline",
           }}
