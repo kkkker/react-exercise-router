@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import './home.css';
+import "./home.css";
 
 class Home extends Component {
   render() {
@@ -7,7 +7,7 @@ class Home extends Component {
     return (
       <div className="home">
         <p>This is a beautiful Home Page.</p>
-    <p>And the url is "{url}"</p>
+        <p>And the url is "{url}"</p>
       </div>
     );
   }

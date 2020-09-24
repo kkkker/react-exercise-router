@@ -10,9 +10,18 @@ class AboutUs extends Component {
         <p>Location: Xi'an</p>
         <br />
         <p>For more information, please</p>
-        <p>view our: <NavLink to="/" activeStyle= {{
-          color:"red",
-        }}>website</NavLink>.</p>
+        <p>
+          view our:{" "}
+          <NavLink
+            to="/"
+            activeStyle={{
+              color: "red",
+            }}
+          >
+            website
+          </NavLink>
+          .
+        </p>
       </div>
     );
   }

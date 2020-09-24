@@ -16,10 +16,11 @@ class NavBar extends Component {
           Home
         </NavLink>
         <NavLink
+          exact
           activeStyle={{
             textDecoration: "underline",
           }}
-          to={["/products", "/goods"]}
+          to={"/products"}
         >
           Products
         </NavLink>
